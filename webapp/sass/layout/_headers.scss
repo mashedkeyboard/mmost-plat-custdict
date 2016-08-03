@@ -374,7 +374,8 @@
         margin-right: 9px;
         width: 24px;
 
-        .channel__wrap.move--left & {
+        .channel__wrap.move--left &,
+        .channel__wrap.webrtc--show & {
             position: absolute;
             right: -400px;
             top: 14px;
